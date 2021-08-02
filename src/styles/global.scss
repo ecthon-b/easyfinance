@@ -5,10 +5,30 @@
 }
 
 :root {
+  --gray-800: #334050;
+  --gray-700: #3d4c5c;
+  --gray-text-600: #6b787e;
+  --gray-100: #b6c6c5;
+
+  --green-400: #00dda2;
+  
+  --with-900: #ffffff;
+  --whith-300: #f2f3f4;
+}
+
+// font-size: 16px (Descktop)
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%; // 15xp
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%; // 14xp
+  }
 }
 
 body {
-  background: var(--background);
+  background: var(--background-light);
+  -webkit-font-smooth: antialiased;
 }
 
 body,
