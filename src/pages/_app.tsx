@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app'
 import { Header } from '../components/Header';
 import { Summary } from '../components/Summary';
+import { Transactions } from '../components/Transactions';
 
 import '../styles/global.scss';
 
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Header />
       <Summary />
+      <Transactions />
       <Component {...pageProps} />
     </>
   )
