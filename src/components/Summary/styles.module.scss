@@ -1,0 +1,43 @@
+.containerCard {
+  display: grid;
+  max-width: 1120px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: -5rem auto 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  color: var(--with);
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  strong {
+    display: block;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+
+  &.income {
+    border-bottom: 4px solid var(--blue-400);
+    background: #004d80;
+  }
+
+  &.outcome {
+    border-bottom: 4px solid var(--red-400);
+    background: #851b00;
+  }
+
+  &.wallet {
+    border-bottom: 4px solid var(--green-400);
+    background: #00523c;
+  }
+}
