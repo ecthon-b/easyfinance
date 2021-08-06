@@ -27,17 +27,18 @@
   }
 
   &.income {
-    border-bottom: 4px solid var(--blue-400);
-    background: #004d80;
+    border-bottom: 4px solid var(--blue);
+    background: var(--white-900);
   }
 
   &.outcome {
-    border-bottom: 4px solid var(--red-400);
-    background: #851b00;
+    border-bottom: 4px solid var(--red);
+    background: var(--white-900);
   }
 
   &.wallet {
-    border-bottom: 4px solid var(--green-400);
+    color: white;
+    border-bottom: 4px solid var(--green);
     background: #00523c;
   }
 }

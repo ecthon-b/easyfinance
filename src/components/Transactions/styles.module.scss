@@ -114,7 +114,7 @@
 .card:hover {
   background: linear-gradient(
       90deg,
-      rgba(250, 156, 45, 0.1) 0.45%,
+      rgba(0,221,162, 0.1) 0.45%,
       rgba(252, 253, 255, 0.1) 31.4%
     ),
     white;
@@ -125,7 +125,7 @@
 
   width: 0.25rem;
   height: 0%;
-  background-color: var(--color-secondary);
+  background-color: var(--green);
 
   border-radius: 0.313rem 0 0 0.313rem;
 
