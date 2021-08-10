@@ -1,6 +1,22 @@
 import styles from './styles.module.scss';
 
-export function Transactions() {
+interface TransactionsProps {
+    income: number;
+    outcome: number;
+    total: number;
+    description: string;
+
+}
+
+const transaction = {
+    income: 4000,
+    outcome: 300,
+    total: 3700,
+    description: "Notebook novo"
+}
+
+export function Transactions(transaction: TransactionsProps) {
+
     return (
         <div className={styles.container}>
             <h1 className={styles.srOnly}>Transações</h1>
@@ -10,7 +26,7 @@ export function Transactions() {
                     <div className={styles.description}>Monitor</div>
                     <div className={styles.value}>
                         <span>Valor</span>
-                        <p>R$ 2.000,00</p>
+                        <p>{transaction.income}</p>
                     </div>
                     <div className={styles.value}>
                         <span>Data</span>

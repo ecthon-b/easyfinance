@@ -5,8 +5,9 @@
 }
 
 :root {
-  --gray-dark-900: #334050;
-  --gray-dark-800: #3d4c5c;
+
+  --background-dark: #334050;
+  --background-light: #F5F4F6;
 
   --text-dark: #353e49;
   --text-light: #d0d2d2;
@@ -14,10 +15,9 @@
   --green: #00dda2;
   --blue: #0085dd;
   --red: #dd0000;
+  --white: #ffffff;
 
-  --white-900: #ffffff;
-  --whith-300: #f2f3f4;
-
+  
   --color-card-label: #bfbfcc;
   --color-secondary: #6f6df0;
 }
