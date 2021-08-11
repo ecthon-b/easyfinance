@@ -11,7 +11,7 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps) {
         <>
             <header className={styles.headerContainer}>
                 <div className={styles.headerContent}>
-                    <a href="">LOGO</a>
+                    <a href="/"><img src="assets/logo.png" alt="Easy Finance Logo" /></a>
                     <nav>
                         <a href="">Login</a>
                     </nav>
